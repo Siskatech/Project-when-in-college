@@ -1,0 +1,2 @@
+You can open examp first for execution script php
+And then open htdocs, after that copy the file
