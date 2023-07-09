@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    background-image: url(house2.png);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+
+}
+
+.user_card{
+    height:440px;
+    width:350px;
+    margin-top: 250px;
+    margin-bottom: auto;
+    background: #b8d9e1a3;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding:5px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+
+.brand_logo_container{
+    position:relative;
+    height:150px;
+    width:150px;
+    bottom:75px;
+    border-radius: 50%;
+    background:#f1f3f4;
+    padding:10px;
+    
+}
+
+.brand_logo{
+    height:130px;
+    width:130px;
+    border-radius:50%;
+    border:1px solid white;
+}
+
+.form_container{
+   margin-top: 1px;
+}
+.btn-primary{
+    width: 90%;
+    font-size: 18px;
+    background: #147294 !important;
+    color:white !important;
+    font-family:Footlight MT Light;
+    text-align: center;
+ }
+    
+.btn-primary:focus{
+    box-shadow: none !important;
+    outline:0px !important;
+}
+
+.login_container{
+    padding:0 2rem;
+}
+
+.input-group-text{
+    background: #147294 !important;
+    color:white !important;
+    border: 0 !important;
+    border-radius:0.25rem 0 0 0.25rem !important;
+}
+
+.input_user,.input_pass:focus{
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color: #147294 !important;
+}
+
+.container{
+    font-family:Footlight MT Light;
+}
+  
